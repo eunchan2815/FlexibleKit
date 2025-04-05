@@ -53,6 +53,7 @@ Text("중앙 정렬")
 ### 🔙 Back Button
 
 유연한 SwiftUI BackButton을 제공합니다. 색상과 설명, 액션을 쉽게 설정할 수 있습니다.
+또한 swipe를 통한 뒤로가기가 가능합니다.
 
 ```swift
 struct TestView: View {
