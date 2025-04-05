@@ -11,15 +11,9 @@
 
 ---
 
-## 📁 Structure
-
-
----
-
 ## 🖼 Preview
 
 <img src="https://github.com/user-attachments/assets/a3e9fcdf-fdd3-4160-8c44-75027e008186" width="100%" align="leading" />
-<img src="https://github.com/user-attachments/assets/70ef457b-d340-499e-935f-4d28c8462f65" width="100%" align="leading" />
 
 ---
 
