@@ -5,7 +5,7 @@ public struct FlexibleDelayedTrigger: ViewModifier {
     @Binding var flag: Bool
     var delay: Double
     
-    public init(flag: Bool, delay: Double) {
+    public init(flag: Binding<Bool>, delay: Double) {
         self._flag = flag
         self.delay = delay
     }
