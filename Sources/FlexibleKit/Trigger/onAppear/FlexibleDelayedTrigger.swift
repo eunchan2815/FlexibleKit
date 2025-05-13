@@ -5,6 +5,11 @@ public struct FlexibleDelayedTrigger: ViewModifier {
     @Binding var flag: Bool
     var delay: Double
     
+    public init(flag: Bool, delay: Double) {
+        self.flag = flag
+        self.delay = delay
+    }
+    
     public func body(content: Content) -> some View {
         content
             .onAppear {
