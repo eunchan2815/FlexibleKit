@@ -14,7 +14,9 @@ public struct FlexibleDelayedTrigger: ViewModifier {
         content
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
-                    flag = true
+                    withAnimation {
+                        flag = true
+                    }
                 }
             }
     }
